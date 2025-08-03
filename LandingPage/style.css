@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+  overflow: hidden;
+  position: relative;
+ 
+   
+}
+
+
+#part1{
+    height: 100%;
+    width: 26%;
+}
+
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(22, 128, 189);
+    background-image: url("ocean-woman.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#part3{
+    height: 100%;
+    width: 7%;
+}
+
+
+#overlay{
+    background-color: rgba(0, 0, 0, 0.441);
+    width: 100%;
+    height: 100%;
+}
+
+#text-div{
+    color: white;
+    width: 400px;
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    transform: translate(0%,-50%);
+}
+
+#text{
+     font-size: 95px;
+     font-weight: 900;
+     font-family: gilroy;
+     text-transform: uppercase;
+     line-height: 78px;
+     letter-spacing: 8px; 
+
+}
+
+.text1{
+    border-right: 210px solid rgb(230, 214, 214);
+    width: 650px;
+    margin-bottom: 4px;
+}
+.text2{
+    border-right: 250px solid rgb(230, 214, 214);
+    width: 650px;
+    margin-bottom: 4px;
+}
+.text3{
+    border-right: 430px solid rgb(230, 214, 214);
+    width: 650px;
+    margin-bottom: 4px;
+}
+.text4{
+    border-right: 100px solid rgb(230, 214, 214);
+    width: 650px;
+}
+ 
+
+#small-img-div{
+    height: 400px; 
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url("woman-4820864_1920.jpg");
+    background-size:cover;
+    background-position:center ;
+    border-radius: 5px;
+}
+
+#vertical-text{
+     position: absolute;
+    transform-origin:0% 0%;
+     transform: rotate(90deg);
+     right: -55%;
+     z-index: 5;
+     top: -3.5%;
+}
+
+#vertical-text > h1{
+     font-size: 78px;
+     /* font-weight: 900; */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue ;
+    color: transparent;
+    letter-spacing: 3px;
+    font-family: gilroy;
+     text-transform: uppercase;
+ 
+     /*  */
+   
+ 
+}
+
+
+
